@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@mipmap/baseline_chat_black_24"
+            android:title="@string/nav_chat" />
+        <item
+            android:id="@+id/nav_rehearsals"
+            android:icon="@mipmap/baseline_calendar_today_black_24"
+            android:title="@string/nav_rehearsal" />
+        <item
+            android:id="@+id/nav_concerts"
+            android:icon="@mipmap/baseline_calendar_today_black_24"
+            android:title="@string/nav_concert" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/nav_tools" />
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_tools"
+                android:title="@string/nav_settings" />
+
+        </menu>
+    </item>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@mipmap/baseline_power_settings_new_black_24"
+                android:title="@string/nav_logout" />
+        </menu>
+    </item>
+</menu>

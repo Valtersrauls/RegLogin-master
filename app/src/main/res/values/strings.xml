@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Deju kolektīvu asistents</string>
+    <string name="etxt_Email">Epasts</string>
+    <string name="etxt_Password">Parole</string>
+    <string name="etxt_PasswordRepeat">Parole vēlreiz</string>
+    <string name="etxt_Username">Lietotājvārds</string>
+    <string name="chb_RememberMe">Atcerēties mani!</string>
+    <string name="chb_DanceGroupTeacher">Deju kolektīva vadītājs</string>
+    <string name="btn_Login">Pieslēgties</string>
+    <string name="btn_Register">Reģistrēties</string>
+    <string name="btn_BackToLogin">Atgriezties</string>
+    <string name="tv_Main">Šī ir galvenā sadaļa, kurā būs čats</string>
+    <string name="etxt_DanceGroupName">Deju kolektīva nosaukums</string>
+    <string name="etxt_DanceGroupCategory">Deju kolektīva grupa</string>
+    <string name="toast_Emailwrong">Lūdzu norādiet pareizu epasta adresi!</string>
+    <string name="toast_EmailUsernameExists">Tāds epasts vai lietotājvārds jau pastāv!</string>
+    <string name="toast_PasswordShort">Ievadīta parole ir pārāk īsa!</string>
+    <string name="toast_PasswordMismatch">Ievadītās paroles nav vienādas!</string>
+    <string name="toast_EmptyFields">Lūdzu aizpildiet visus nepieciešamos informācijas laukus!</string>
+    <string name="toast_Error">Atvainojiet, mūsu galā ir radusies kļūda!</string>
+    <string name="toast_SuccessMessage">Reģistrācija veiksmīgi veikta!</string>
+    <string name="toast_LoggedIn">Tu esi pieslēdzies!</string>
+    <string name="toast_FailedToLogIn">Nepareizi autentifikācijas dati!</string>
+    <string name="nav_chat">Čats</string>
+    <string name="nav_rehearsal">Mēģinājumi</string>
+    <string name="nav_concert">Koncerti</string>
+    <string name="nav_settings">Iestatījumi</string>
+    <string name="nav_tools">Vadītāja rīki</string>
+    <string name="nav_logout">Iziet</string>
+    <string name="nav_open">Atvērt</string>
+    <string name="nav_close">Aizvērt</string>
+    <string name="nav_leader">Vadītājs</string>
+    <string name="nav_user">Jānis Ozols</string>
+    <string name="not_found">Lietotājs netika atrasts!</string>
+    <string name="activity_time">Mēģinājuma laiks:</string>
+    <string name="activity_graph">Mēģinājuma grafiks:</string>
+    <string name="activity_notes">Piezīmes:</string>
+    <string name="header_rehGraph">Mēģinājuma grafiks:</string>
+    <string name="concert_time">Koncerta sākums:</string>
+    <string name="concert_graph">Koncerta grafiks:</string>
+    <string name="concert_notes">Piezīmes:</string>
+    <string name="header_concGraph">Koncerta grafiks:</string>
+
+
+</resources>

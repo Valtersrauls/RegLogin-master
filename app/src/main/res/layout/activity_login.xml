@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+    <EditText
+        android:id="@+id/etxtEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etxt_Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/etxtPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:ems="10"
+        android:hint="@string/etxt_Password"
+        android:inputType="textPassword">
+
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/chbRememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="@string/chb_RememberMe"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:text="@string/btn_Register"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Login"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:typeface="normal"
+        android:layout_gravity="end"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+
+
+</LinearLayout>
